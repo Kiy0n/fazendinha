@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot exports
+/export/
+/builds/
+export_credentials.cfg
+
+# .NET / C# build output
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+.mono/
+mono_crash.*.json
+
+# IDEs
+.vs/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.idea/
+*.DotSettings.user
+
+# OS
+Thumbs.db
+.DS_Store

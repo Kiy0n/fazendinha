@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ceyupmlsox3ti"]
+
+[ext_resource type="PackedScene" uid="uid://cdtrjo4nxg1ex" path="res://scenes/world/farm/cenario.tscn" id="1_hyk8p"]
+[ext_resource type="PackedScene" uid="uid://xlck384wvbmf" path="res://scenes/characters/player/fazendeira.tscn" id="2_iuonh"]
+
+[node name="main" type="Node2D" unique_id=120271861]
+
+[node name="cenario" parent="." unique_id=1860977379 instance=ExtResource("1_hyk8p")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1215271830]
+position = Vector2(170, 91)
+zoom = Vector2(2, 2)
+
+[node name="fazendeira" parent="." unique_id=1991302099 instance=ExtResource("2_iuonh")]
+position = Vector2(172, 104)
